@@ -1,0 +1,27 @@
+- title: San Francisco
+  text: |
+    " Freely explore massive area of San Francisco. Teleport yourself from AT&amp;T 
+    park to Golden Gate Bridge. Get down your hands and knees on Market St. See the city 
+    skylines from Twin Peak. Walk alongside Coit Tower like a giant. Touch Transamerica Pyramid. 
+    Watch sunrise over Bay Bridge and Ferry Building. You'll experience San Francisco from 
+    perspectives you've never seen before."
+  url: https://store.steampowered.com/app/517990/
+  buttontext: Available on Steam
+  image: capsule_main_sf.png
+  id: sanfrancisco
+- title: New York City
+  text: |
+    Stand at the top of the Empire State Building. Look down on Times Square and take 
+    a walk at the Fifth Avenue. 
+  url: https://store.steampowered.com/app/517990/
+  buttontext: Coming soon to Steam
+  image: capsule_main_nyc.png
+  id: newyorkcity
+- title: Chicago
+  text: |
+     Observe the city skyline reflection on Cloud Gate in the Millennium Park. 
+     Take a 1,450-foot leap from Lake Michigan to the SkyDeck at Willis Tower. 
+  url: https://store.steampowered.com/app/517990/
+  buttontext: Coming soon to Steam
+  image: capsule_main_chicago.png
+  id: chicago

@@ -1,8 +1,6 @@
-# Skywand
+# City Vr
 
-To make updates edit the text in the src/_data files. They correspond to the html in the src/_includes
-
-> Main Site
+Index page is split up into multiple files in the src/_includes directory. Text can be changed in the corresponding data file in src/_data
 
 ## To get started
 
@@ -40,4 +38,4 @@ on Github](https://github.com/sondr3/generator-jekyllized).
 
 ## Owner
 
-> [Amber Garage](https://esimonian.github.io/ambergarage_skywand)
+> [Amber Garage](https://esimonian.github.io/ambergarage_cityvr)

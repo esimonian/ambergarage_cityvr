@@ -1,7 +1,6 @@
 'use strict';
 const argv = require('yargs').argv;
 const autoprefixer = require('autoprefixer');
-const babel = require('gulp-babel');
 const browserSync = require('browser-sync').create();
 const concat = require('gulp-concat');
 const cssnano = require('gulp-cssnano');

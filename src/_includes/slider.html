@@ -1,0 +1,49 @@
+<!-- Section -->
+<section class="page-section bg-gray fullwidth-slider" id="city_content">
+{% for slide in site.data.slider %}
+    <!-- Slide Item -->
+    <div id="{{slide.id}}">
+        <div class="container relative">
+            <div class="row">
+            
+                <div class="col-md-5 col-lg-4 mb-sm-40">
+                    
+                    <!-- About Project -->
+                    <div class="text">
+                        
+                        <h3 class="font-alt mb-30 mb-xxs-10">{{slide.title}}</h3>
+                        <p><small>
+                        {{slide.text}}
+                        </small></p>
+                        
+                        <div class="mt-40">
+                            <a href="{{slide.url}}" target="_blank" class="btn btn-mod btn-medium btn-round">{{slide.buttontext}}<i class="fa fa-steam fa-lg dark"></i></a>
+                        </div>
+                        
+                    </div>
+                    <!-- End About Project -->
+                    
+                </div>
+                
+                <div class="col-md-7 col-lg-offset-1">
+                    
+                    <!-- Work Gallery -->
+
+                    <div class="work-full-media mb-80 mb-xs-40">
+            
+                        <ul class="clearlist ">
+                            <li>
+                                <img src="assets/images/{{slide.image}}" alt="" />
+                            </li>
+                        </ul>
+                        
+                    </div>
+                    <!-- End Work Gallery -->
+                </div>
+             </div>
+        </div>
+    </div>
+    <!-- End Slide Item -->
+{% endfor %}
+</section>
+<!-- End Section -->

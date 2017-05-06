@@ -1,0 +1,39 @@
+- title: the City VR Experience
+  text: |
+    The City VR Experience allows you to discover new 
+    perspectives to look upon cities like never have before. 
+    Touch and feel the skyscrapers. Teleport to go places. 
+    Take snapshots of favorite views and moments. Enjoy sunset from the top of the world." 
+  accordions: 
+    - question: What is City VR?
+      answer: |
+        The City VR Experience is an immersive virtual reality experience that allows you to 
+        discover new perspectives to look upon the world we live in like never have before. 
+        Every street and address matches its real-world equivalent - but City VR is more 
+        than just a 3D map. It enables you to travel through the streets like a giant, 
+        observe architecture from up on high, zoom in to the ground or zoom out to the air, 
+        change lighting and weather, and take snapshots of the most unique city views discovered 
+        on your own. 
+    - question: When and how can I get City VR?
+      answer: |
+        City VR will be released on Steam on September 26th, 2016. 
+        City VR is currently available on HTC Vive, and additional HMDs are coming soon.
+    - question: Who created City VR?
+      answer: |
+        "<a href="https://ambergarage.com" target="_blank">Amber Garage</a> is the 
+        creative team behind City VR. An art and tech studio based in Silicon Valley, 
+        Amber Garage strives to curate experiences, make artworks, and build products 
+        that bring virtual to reality. With deep love in nature, robotics, and photography,
+        Amber Garage is dedicated to generating critical thinkings and creativity in visual arts 
+        and technology. 3D models come "
+    - question: What is the story behind City VR?
+      answer: |
+        "City VR is inspired by <a href="https://skywand.com" target="_blank">Skywand</a>, 
+        Amber Garage’s first artwork. Skywand allows anyone, including cinematographers and 
+        those with zero drone experience, to create precise aerial filming plans in an intuitive 
+        3D virtual interface and have actual drone executed subsequently. Skywand eliminates 
+        technical barriers to achieve professional drone cinematography by automating the flight 
+        process and arm visionary filmmakers with a power and intelligent partner. 
+        The 3D models in City VR comes from a combination of Amber Garage's own aerial
+        photogrammetry technology (data collected using Skywand mentioned above) and the 
+        third party model provider <a href="http://plwmodelworks.com/">PLW</a>. "

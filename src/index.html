@@ -1,114 +1,98 @@
 ---
 layout: default
+title: index
 ---
 
-<section class="home-section" data-background="assets/images/skywand/bg_orange.png" id="home">
-    <div class="js-height-full container">
-        
-        <!-- Footage Content -->
-        <div class="home-content">
-            <div class="home-text">
-                
-                <h1 class="hs-line-14 font-alt mb-50 mb-xs-20" style="color:white;">
-                    SKYWAND
-                </h1>
-                
-                <h2 class="hs-line-8 no-transp font-alt" style="color:white;">
-                    immersive motion control for aerial cinematography
-                </h2>
-                
-                <h2>
-                </h2>
+{% include home.html%}
 
-                <div>
-                    <a href="http://vimeo.com/163223379" class="big-icon-link lightbox mfp-iframe"><span class="big-icon"><i class="fa fa-play"></i></span></a>
-                </div>  
+{% include divider.html%}                    
 
-            </div>
-        </div>
-        <!-- End Footage Content -->
+{% include about.html%} 
+                 
+<!-- Call Action Section -->
+<section class="small-section bg-dark" id="gameplay">
+    <div class="container relative">
         
-    </div>
-</section>
-<!-- End Home Section -->
-            
-            
-<!-- Navigation panel -->
-<nav class="main-nav dark transparent stick-fixed">
-    <div class="full-wrapper relative clearfix">
-        <!-- Logo ( * your text or image into link tag *) -->
-        <div class="nav-logo-wrap local-scroll">
-            <a href="#top" class="logo" style="padding-left:10px;">
-                <img src="assets/images/skywand/logo-white.png" alt="" />
-            </a>
-        </div>
-        <div class="mobile-nav">
-            <i class="fa fa-bars"></i>
-        </div>
-        <!-- Main Menu -->
-        <div class="inner-nav desktop-nav">
-            <ul class="clearlist scroll-nav local-scroll">
-                <li class="active"><a href="#home">Home</a></li>
-                <li><a href="#workflow">Workflow</a></li>
-                <li><a href="#showreel">Show Reel</a></li>
-                <li><a href="#virtualreality">Virtual Reality</a></li>
-                <li><a href="#moreinterface">Software</a></li>
-                <li><a href="#aerialplatform">Aerial</a></li>
-                <li><a href="#faq">FAQ</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contacts</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
-<!-- End Navigation panel -->
-            
-            
-{% include workflow.html%}
-            
-{% include portfolio.html%}
-
-<!-- Interface Section -->
-<section class="page-section fullwidth-slider" data-background="assets/images/skywand/bg_blue.png" id="virtualreality">
-    <div class="relative">
-        
-        <h2 class="section-title font-alt mb-70 mb-sm-40">
-            virtual reality interface
-        </h2>
-        
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    
-                    <div class="section-text align-center mb-70 mb-xs-40" style="color:white;">
-                        Walk in the virtual city like a giant.
-                        <br>
-                        Frame the shot intuitively as you hold a real camera in the sky.
-                    </div>
-                    <div class="section-text align-center mb-70 mb-xs-40">
-                    <a href="http://vimeo.com/163277992" class="big-icon-link lightbox mfp-iframe"><span class="big-icon"><i class="fa fa-play"></i></span></a>
-                    </div>  
-                
-
-                </div>
-            </div>
+        <div class="align-center">
+            <h3 class="banner-heading font-alt">Mixed Reality Gameplay</h3>
         </div>
         
     </div>
 </section>
-<!-- End Interface Section -->
-            
-{% include interfaceslider.html%}           
-     
-{% include platform.html%}             
+<!-- End Call Action Section -->
+
+<!-- Section -->
+<section class="page-section">
+    <div class="container relative">
         
-{% include faq.html%}            
+        <div class="work-full-media mt-0">
+            
+            <iframe src="https://player.vimeo.com/video/184466703?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="1000" height="563" allowfullscreen></iframe>
+            
+        </div>
 
-{% include about.html%}   
+    </div>
+</section>
 
+<!-- Call Action Section -->
+<section class="small-section bg-dark" id="screenshots">
+    <div class="container relative">
+        
+        <div class="align-center">
+            <h3 class="banner-heading font-alt">Screenshots</h3>
+        </div>
+        
+    </div>
+</section>
+<!-- End Call Action Section -->
+
+{% include gallery.html %}
+            
+
+<!-- Call Action Section -->
+<section class="small-section bg-dark" id="city">
+    <div class="container relative">
+        
+        <div class="align-center">
+            <h3 class="banner-heading font-alt">Cities</h3>
+        </div>
+        
+    </div>
+</section>
+<!-- End Call Action Section -->
+            
+{% include slider.html %}
+
+                     
+<section class="small-section bg-dark bg-dark-alfa-70 fullwidth-slider"  id="press">
+    <div class="container relative">
+        
+        <div class="align-center">
+            <h3 class="banner-heading font-alt">Press</h3>
+        </div>
+        
+    </div>
+</section>
+
+ <!-- Section -->
+<section class="page-section">
+    <div class="container relative">
+    <p class="align-center">
+        <a href="http://goo.gl/WLlPSN" target="_blank">Press Kit</a>: HD Screenshots, Video, GIFs, Clips, Footage, Press Release, and Q&amp;A and more! <br>
+        Please follow instructions in <a href="http://goo.gl/WLlPSN" target="_blank">Press Kit</a> to use these materials.
+    </p>
+    </div>
+</section>
+<!-- End Section -->
+
+{% include testimonials.html %}
+               
+{% include divider.html%}       
+
+{% include contact.html%}   
 {% include newsletter.html%}   
 
-{% include contact.html%}                         
+                      
                     
             
             

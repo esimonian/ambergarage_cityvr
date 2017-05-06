@@ -1,0 +1,30 @@
+<!-- Testimonials Section -->
+<section class="page-section bg-dark-alfa-70 fullwidth-slider " id="testimonial" data-background="assets/images/sanfrancisco/Screenshot_10.jpg">
+    {% for testimonial in site.data.testimonials %}
+    <!-- Slide Item -->
+    <div>
+        <div class="container relative">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 align-center">
+                    <!-- Section Icon -->
+                    <div class="section-icon">
+                        <span class="icon-quote"></span>
+                    </div>
+                    <!-- Section Title --><h3 class="small-title font-alt">What people say?</h3>
+                    <blockquote class="testimonial white">
+                        <p>
+                            {{testimonial.text}}
+                        </p>
+                        <footer class="testimonial-author">
+                            <a href="{{testimonial.url}}" target="_blank">{{testimonial.author}}</a>
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Slide Item -->
+    {% endfor %}
+
+</section>
+<!-- End Testimonials Section -->

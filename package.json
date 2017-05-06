@@ -1,8 +1,8 @@
 {
-  "name": "amber-garage-website",
+  "name": "city-vr",
   "version": "0.0.0",
   "description": "Main Site",
-  "homepage": "https://esimonian.github.io/ambergarage_skywand",
+  "homepage": "https://esimonian.github.io/ambergarage_cityvr",
   "author": {
     "name": "Amber Garage",
     "email": ""
@@ -32,7 +32,6 @@
     "require-dir": "^0.3.0",
     "shelljs": "^0.7.0",
     "yargs": "^4.7.0",
-    "gulp-babel": "^6.1.2",
     "gh-pages": "^0.11.0"
   }
 }

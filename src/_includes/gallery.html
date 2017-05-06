@@ -1,0 +1,19 @@
+<!-- Section -->
+<section class="page-section">
+    <div class="container relative">
+        
+        <!-- Work Gallery -->
+        <div class="work-full-media mb-80 mb-xs-40">
+            
+            <ul class="clearlist work-full-slider owl-carousel" id="screenshots_owl">
+            {% for photo in site.data.gallery %}
+                <li>
+                    <img src="assets/images/sanfrancisco/{{photo.image}}" alt="" />
+                </li>
+            {% endfor %}
+            </ul>           
+        </div>
+        <!-- End Work Gallery -->
+    </div>
+</section>
+<!-- End Section -->
